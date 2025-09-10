@@ -32,10 +32,10 @@ class Tank:
 
         #              top-left/bottom-left/bottom-right/top-right
         self.corners = [
-            [self.x - self.height / 2 + 10, self.y - self.width / 2],
-            [self.x - self.height / 2 + 10, self.y + self.width / 2],
-            [self.x + self.height / 2 - 10, self.y + self.width / 2],
-            [self.x + self.height / 2 - 10, self.y - self.width / 2],
+            [self.x - self.height / 2, self.y - self.width / 2],
+            [self.x - self.height / 2, self.y + self.width / 2],
+            [self.x + self.height / 2, self.y + self.width / 2],
+            [self.x + self.height / 2, self.y - self.width / 2],
         ]
 
         self.corners_offset = self.corners[::]
